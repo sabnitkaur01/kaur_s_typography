@@ -95,6 +95,7 @@ body {
  font-weight: bold;
  margin-top: 35px;
  text-shadow: 2px 2px #A66556;
+ font-family: sans-serif italic;
 }
 
 .Info2 {
@@ -131,12 +132,14 @@ body {
   color: white;
   margin-left: 590px;
   margin-top: -320px;
+	font-style: italic;
 }
 
 .text2 p {
   color: white;
   font-size: 18px;
   margin-top: 10px;
+	font-style: italic;
 }
 
 .beer {
@@ -144,6 +147,8 @@ body {
   font-size: 30px;
   font-weight: bold;
   margin-left: 500px;
+	text-shadow: 2px 2px #A66556;
+	font-family: sans-serif italic;
 }
 
 .beerPic {
