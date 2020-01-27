@@ -1,0 +1,188 @@
+
+
+
+.hidden {
+	display:none;
+}
+
+body {
+  background-color: black;
+}
+
+/*-- Start Header --*/
+
+.Container {
+  margin-left: 75px;
+}
+
+.mainHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.logoHeader
+{
+  width: 220px;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.mainNav{
+	width: 500px;
+  	height: 25px;
+  	margin-top: 45px;
+  	margin-left: 510px;
+}
+
+.mainNav ul
+{
+  list-style-type: none;
+  padding: 0;
+  text-decoration: none;
+}
+
+.mainNav ul li {
+  font-size: 18px;
+  display: inline;
+  cursor: pointer;
+  margin-left: 25px;
+}
+
+.mainNav ul li a
+{
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.mainNav ul li a:hover {
+  padding: 5px;
+  background-color: white;
+  border-radius: 7px;
+  color: black;
+}
+
+.selected
+{
+  padding: 5px 0px 5px 0px;
+  background-color: black;
+  border-radius: 7px;
+  color: white;
+}
+
+.mainNav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 15px;
+  font-size: 17px;
+  border: 4px solid;
+  margin-right: 42px;
+  border-radius: 7px;
+  width: 350px;
+  font-weight: lighter;
+}
+
+/* End of header */
+
+/* first text of web page */
+
+.Info {
+ font-size: 22px;
+ color: white;
+ font-style: bold;
+ margin-top: 35px;
+ text-shadow: 2px 2px #A66556;
+}
+
+.Info2 {
+  font-size: 20px;
+  color: white;
+}
+
+#p {
+  font-size: 18px;
+  color: white;
+  font-style: italic;
+}
+
+#picCon {
+	width: 558px;
+	height: 30px;
+	margin-top: 5px;
+	text-align: center;
+	background-color: white;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	opacity: 0.690;
+  margin-top: -90px;
+}
+
+#picCon h2 {
+  font-size: 28px;
+  margin-top: -5px;
+  /* text-shadow: 2px 2px #A66556; */
+}
+
+.textCon p {
+  font-size: 18px;
+  color: white;
+  margin-left: 590px;
+  margin-top: -320px;
+}
+
+.text2 p {
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.beer {
+  color: white;
+  font-size: 30px;
+  font-style: bold;
+  margin: center;
+  margin-left: 500px;
+}
+
+.beerPic {
+  margin-top: 30px;
+}
+
+.textBeer p {
+  color: white;
+}
+
+
+.beerPic2 {
+  margin-left: 490px;
+  margin-top: -510px;
+}
+
+.textB p {
+  color: white;
+}
+
+.beerPic3
+{
+  margin-top: -500px;
+  margin-left: 980px;
+}
+
+.textC p {
+  color: white;
+}
+
+.footer {
+  margin-left: 75px;
+}
+
+.foot {
+  color: white;
+}
+
+.footerInfo p {
+  color: white;
+}
