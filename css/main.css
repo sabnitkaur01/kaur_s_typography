@@ -92,7 +92,7 @@ body {
 .Info {
  font-size: 22px;
  color: white;
- font-style: bold;
+ font-weight: bold;
  margin-top: 35px;
  text-shadow: 2px 2px #A66556;
 }
@@ -142,8 +142,7 @@ body {
 .beer {
   color: white;
   font-size: 30px;
-  font-style: bold;
-  margin: center;
+  font-weight: bold;
   margin-left: 500px;
 }
 

@@ -5,6 +5,7 @@
     <title>My typography assignment</title>
     <link rel="stylesheet" href="css/main.css" media="screen">
     <link rel="stylesheet" href="js/main.js" media="screen">
+    <link rel="stylesheet" href="js/reset.js" media="screen">
   </head>
   <body>
     <div class="Container"> <!-- start header -->
@@ -20,13 +21,13 @@
          <li><a href="AboutUs.html">ABOUT US</a></li>
          <li><a href="services.html">SERVICES</a></li>
          <li><a href="contact.html">CONTACT</a></li>
-         <input type="text" placeholder="Search">
       </ul>
+         <input type="text" placeholder="Search">
   </nav>
   </header>  <!-- done with the header -->
 
   <div class="Text">
-  <h1 class="Info">ABOUT THE BREWERY
+  <h1 class="Info">ABOUT THE BREWERY </h1>
   <h2 class="Info2">Handcrafted, Small Batch Brewed</h2>
   <p id="p">Nestled in the heart of Muskoka, Muskoka Brewery handcrafts premium beers as unique and refreshing as the region they’re from.
 Founders Gary McMullen and Kirk <br> Evans kicked open the doors of Muskoka Brewery in June of 1996. Currently owned and operated by Todd Lewin and Bob MacDonald, what started as a very small and <br> dedicated team has quickly grown to a passionate band of beer lovers more than 130 strong.
@@ -41,10 +42,11 @@ Contact Us: tap.room@muskokabrewery.com OR 705-646-1266.</p>
     </div>
 
    <section id="picCon">
-    <h2> WHY MUSKOKA?</h2>
+    <h2 class="hidden"> WHY MUSKOKA?</h2>
   </section>
 
   <section class="textCon">
+    <h2 class="hidden"> beerInfo</h2>
     <p>There is only one Muskoka. It is a special place where rugged granite outcrops and lonely <br> blockquote windswept pines meet the shimmering beauty of freshwater lakes. Unspoiled <br> natural beauty is what people find here in Muskoka. This place is our home. It is at the <br> heart of what we brew.
  
   <br>  Go ahead, taste it. <br><br>
@@ -72,14 +74,13 @@ We care about each other and the well-being of our community. We are approachabl
  We are not afraid to venture off the beaten path to create and forge new ways of doing things. That is how we are built. <br><br>
    </p>
   </div>
-
-  <section class="beer"> OUR BEERS</section>
-
+  <section class="beer"> OUR BEERS
+    <h2 class="hidden"> beerImages and brands</h2>
+  </section>
   <div class="beerPic">
     <img src="images/craftLager.png" alt="beer Pic" width="250" height="250">
     <div class="textBeer">
-      <p>
-         Cream Ale <br><br>
+      <p>  Cream Ale <br><br>
  Craft Lager <br><br>
  Detour <br><br>
  Ebb & Flow <br><br>
@@ -119,8 +120,6 @@ We care about each other and the well-being of our community. We are approachabl
   </div>
   </main>
   </div>
-  </body>
-
 <footer class="footer">
 
 <h2 class="foot">CONTACT US</h2>
@@ -134,10 +133,7 @@ We care about each other and the well-being of our community. We are approachabl
   https://muskokabrewery.com/
 
   </p>
-
-
 </div>
-
-
 </footer>
+</body>
 </html>
